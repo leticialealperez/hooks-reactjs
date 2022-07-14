@@ -1,0 +1,8 @@
+// O QUE VAI SER FEITO COM A ENTIDADE - BAURU
+
+export const BAURU_STORE = {
+  COMPRAR: 'COMPRAR',
+  REPOR: 'REPOR',
+}
+
+export default { BAURU_STORE }
