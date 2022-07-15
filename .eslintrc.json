@@ -22,11 +22,12 @@
     "no-console": "off",
     "default-param-last": "off",
     "prettier/prettier": "error",
+    "react/jsx-fragments": "off",
+    "react-hooks/rules-of-hooks": "off",
     "react/jsx-one-expression-per-line": "off",
     "react/function-component-definition": "off",
     "react/require-default-props": "off",
     "react/no-unused-prop-types": "off",
-    "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
       1,

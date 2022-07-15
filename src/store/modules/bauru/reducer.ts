@@ -3,7 +3,7 @@
 import { BAURU_STORE } from './constants'
 
 const initialState: IBauru = {
-  sabor: 'Barbecue',
+  sabor: '',
   quantidade: 10,
 }
 

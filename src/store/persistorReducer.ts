@@ -8,7 +8,7 @@ export default (reducers: any) => {
     {
       key: 'bauru_store',
       storage,
-      whitelist: ['bauruReducer'],
+      whitelist: ['bauruReducer', 'refriReducer'],
     },
     reducers
   )
