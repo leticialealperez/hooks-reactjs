@@ -1,12 +1,12 @@
 import { FETCH_USERS } from './constants'
 
-const initialState = {
+const initialState: IStateUsers = {
   loading: false,
   users: [],
   error: '',
 }
 
-const userReducer = (state = initialState, { type, payload }: any) => {
+const userReducer = (state = initialState, { type, payload }: IActionUsers) => {
   switch (type) {
     case FETCH_USERS.REQUESTED:
       return {
